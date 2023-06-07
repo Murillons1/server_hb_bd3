@@ -1,11 +1,13 @@
 const {Sequelize} = require("sequelize")
-const sequelize = new Sequelize("banco_d","root","senai",{
+const sequelize = new Sequelize("banco_c","root","senai",{
     host: "localhost",
     dialect: "mysql"
 },{
     createdAt:false,
     updatedAt:false
 })
+
+
 
 // sequelize.authenticate().then(()=>{
 //     console.log("Conexão realizada com sucesso!")
